@@ -1,0 +1,32 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import State from './State';
+import Nested from './Nested';
+import { CustomProp } from './CustonPropTypeVal';
+import { Events } from './Events';
+import { Ref } from './Ref';
+import { LifeCycle, Wrapper } from './LifeCycle';
+import { UpdateCo } from './UpdateCo';
+import { ArrayofData } from './ArrayofData';
+import { HocApp } from './Hoc';
+import { Compiler } from './Compiler';
+import { Children } from './children';
+import { Children2 } from './Children2';
+import { Composable } from './Composable';
+
+
+// ReactDOM.render(<App name="MoeinDanA" num={9463103} />, docum/ent.getElementById('root'));
+// ReactDOM.render(<State />, document.getElementById('root'));
+// ReactDOM.render(<Nested />, document.getElementById('root'));
+// ReactDOM.render(<CustomProp />, document.getElementById('root'));
+// ReactDOM.render(<Events />, document.getElementById('root'));
+// ReactDOM.render(<Ref />, document.getElementById('root'));
+// ReactDOM.render(<Wrapper />, document.getElementById('root'));
+// ReactDOM.render(<UpdateCo />, document.getElementById('root'));
+// ReactDOM.render(<ArrayofData />, document.getElementById('root'));
+// ReactDOM.render(<HocApp />, document.getElementById('root'));
+// ReactDOM.render(<Compiler />, document.getElementById('root'));
+// ReactDOM.render(<Children />, document.getElementById('root'));
+// ReactDOM.render(<Children2 />, document.getElementById('root'));
+ReactDOM.render(<Composable />, document.getElementById('root'));
